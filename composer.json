@@ -1,0 +1,11 @@
+{
+    "require": {
+        "slim/slim": "^3.0",
+        "catfan/Medoo": "^1.1",
+        "league/plates": "^3.3",
+        "slim/csrf": "^0.8.1"
+    },
+    "autoload": {
+        "psr-4": {"app\\": "app/"}
+    }
+}
