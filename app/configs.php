@@ -12,7 +12,7 @@ return [
         'log.path' => __DIR__ . '/storage/logs',
         'db' => [
             'database_type' => 'mysql',
-            'database_name' => 'cms',
+            'database_name' => 'demo',
             'server' => '127.0.0.1',
             'username' => 'root',
             'password' => '',
@@ -20,5 +20,10 @@ return [
             'prefix' => 'syan_',
         ],
         'theme' => 'default',
+        'roles' => [
+            'admin' => 0,
+            'user' => 1,
+        ],
+        'key' => 'hjJGHSYkHHHG98GHGWN',
     ],
 ];

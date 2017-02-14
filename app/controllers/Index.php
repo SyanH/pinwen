@@ -11,8 +11,11 @@ class Index extends Base
 
     public function home(Request $request, Response $response, $args)
     {
-        $user = User::get(1);
-        echo $this->view->render('admin', ['user' => $user]);
+        //$user = User::get(1);
+        //echo $this->view->render('admin', ['user' => $user]);
+        //return $response->write('hahah');
+        setCookie('test', 'qqq');
+        echo 'sss';
     }
 
 }
