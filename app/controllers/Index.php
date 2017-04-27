@@ -14,7 +14,6 @@ class Index extends Base
         //$user = User::get(1);
         //echo $this->view->render('admin', ['user' => $user]);
         //return $response->write('hahah');
-        setCookie('test', 'qqq');
         echo 'sss';
     }
 
