@@ -24,6 +24,7 @@ class ComposerStaticInit89a619398d711af02e89946a593d7c30
         'P' => 
         array (
             'Psr\\Http\\Message\\' => 17,
+            'Psr\\Container\\' => 14,
         ),
         'M' => 
         array (
@@ -59,6 +60,10 @@ class ComposerStaticInit89a619398d711af02e89946a593d7c30
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
+        'Psr\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/container/src',
         ),
         'Medoo\\' => 
         array (
